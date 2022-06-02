@@ -22,6 +22,8 @@ class Counter extends Component{
           <CounterButton by={2} incrementMethod={this.increment} decrementMethod = {this.decrement} multiplyMethod={this.multiply} ></CounterButton>
           <CounterButton by={3} incrementMethod={this.increment} decrementMethod = {this.decrement} multiplyMethod={this.multiply}></CounterButton>
           <span className='val'> {this.state.counter}</span>
+
+          {/* //use a single state */}
           <div><button className='reset'onClick={this.reset}>Reset</button></div>
         </div>
     }

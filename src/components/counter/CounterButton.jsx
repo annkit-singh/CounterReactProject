@@ -21,7 +21,7 @@ import './Counter.css'
         </div>
     }
 
-
+// assign a state to every button
     // increment(){
     //     this.setState({
     //         counter:this.state.counter+this.props.by
